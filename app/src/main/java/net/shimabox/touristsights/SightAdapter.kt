@@ -32,7 +32,7 @@ class SightAdapter(
         holder.kind.text = sights[position].kind
         var imageResource = context.resources.getIdentifier(
             sights[position].imageName,
-            "drawble",
+            "drawable",
             context.packageName)
         holder.image.setImageResource(imageResource)
     }
