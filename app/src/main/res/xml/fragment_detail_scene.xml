@@ -13,6 +13,9 @@
                motion:framePosition="100"
                android:alpha="0.5" />
        </KeyFrameSet>
+        <OnSwipe
+            motion:touchAnchorId="@+id/headerTitle"
+            motion:dragDirection="dragDown" />
     </Transition>
 
     <ConstraintSet android:id="@+id/start">
